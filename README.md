@@ -7,4 +7,4 @@ The full command is Connect-AzAccount -Tenant "*Tenant ID*" -Subscription "*Subs
 
 Make sure to save the command someplace safe as it will try to authenticate with your tenant once you run it, no matter where it's run. It is not recommended to keep the tenant ID and subscription ID stored in your script in case you share your copy.
 
-You may also troubleshoot to check your tenant ID with the following URL: https://login.microsoftonline.com/<tenant>/.well-known/openid-configuration
+You may also troubleshoot to check your tenant ID with the following URL: https://login.microsoftonline.com/*Tenant_ID*/.well-known/openid-configuration
