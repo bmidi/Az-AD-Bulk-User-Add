@@ -9,7 +9,7 @@
 
 # Connect-AzAccount -Tenant ""  -Subscription ""
 
-$users = Import-Csv -Delimiter "," -Path "C:\temp\userlist.csv" # Import userlist.csv
+$users = Import-Csv -Delimiter "," -Path "userlist.csv" # Import userlist.csv
 
 $secureStringPassword = ConvertTo-SecureString -String "Password1" -AsPlainText -Force # Create a Secure String object to contain the password string defined here
 
